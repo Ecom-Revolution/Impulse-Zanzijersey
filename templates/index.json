@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -6,25 +15,35 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
             "title_size": 80,
-            "link": "shopify:\/\/collections\/all",
+            "subheading": "And optional subtext",
+            "link": "shopify://collections/all",
             "link_text": "Shop this",
-            "link_2": "shopify:\/\/collections\/all",
+            "link_2": "shopify://collections/all",
             "link_text_2": "Shop all",
             "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-center"
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         },
         "slideshow-1": {
           "type": "image",
           "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
             "title_size": 80,
-            "link": "shopify:\/\/collections\/all",
+            "subheading": "And optional subtext",
+            "link": "shopify://collections/all",
             "link_text": "Shop all",
-            "link_2": "shopify:\/\/collections\/all",
+            "link_2": "shopify://collections/all",
             "link_text_2": "Shop all",
             "color_accent": "#000000",
-            "text_align": "vertical-bottom horizontal-left"
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
@@ -38,7 +57,8 @@
         "parallax": true,
         "style": "bars",
         "autoplay": true,
-        "autoplay_speed": 7
+        "autoplay_speed": 7,
+        "lazyload_images": true
       }
     },
     "rich-text": {
@@ -46,18 +66,27 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": {}
+          "settings": {
+            "title": "Rich text"
+          }
         },
         "text": {
           "type": "text",
-          "settings": {}
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
         }
       },
       "block_order": [
         "heading",
         "text"
       ],
-      "settings": {}
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     },
     "promo-grid": {
       "type": "promo-grid",
@@ -65,11 +94,19 @@
         "promo-0": {
           "type": "advanced",
           "settings": {
-            "cta_link1": "shopify:\/\/collections\/all",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "shopify://collections/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "50",
             "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
           }
@@ -77,11 +114,19 @@
         "promo-1": {
           "type": "advanced",
           "settings": {
-            "cta_link1": "shopify:\/\/collections\/all",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "shopify://collections/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "50",
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": true,
             "framed": false
           }
@@ -95,7 +140,39 @@
         "full_width": true,
         "gutter_size": 20,
         "space_above": false,
-        "space_below": false
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_HQKMCe": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_3WcJU4": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_LaeyKP": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_3WcJU4",
+        "liquid_LaeyKP"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
       }
     },
     "featured-collections": {
@@ -103,19 +180,35 @@
       "blocks": {
         "featured-collections-0": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
         },
         "featured-collections-1": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
         },
         "featured-collections-2": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
         },
         "featured-collections-3": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -137,10 +230,19 @@
         "promo2-0": {
           "type": "advanced",
           "settings": {
-            "cta_link1": "shopify:\/\/collections\/all",
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "shopify://collections/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "100",
             "height": 720,
             "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
           }
@@ -148,7 +250,13 @@
         "promo2-1": {
           "type": "sale_collection",
           "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
             "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
             "boxed": false,
             "framed": true
           }
@@ -156,7 +264,13 @@
         "promo2-2": {
           "type": "sale_collection",
           "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
             "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
             "boxed": false,
             "framed": true
           }
@@ -171,14 +285,18 @@
         "full_width": false,
         "gutter_size": 20,
         "space_above": false,
-        "space_below": false
+        "space_below": false,
+        "lazyload_images": true
       }
     },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
         "per_row": 4,
         "rows": 1,
+        "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
@@ -186,11 +304,17 @@
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
-        "button_link": "shopify:\/\/collections\/all",
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "button_label": "",
+        "button_link": "shopify://collections/all",
         "layout": "left",
         "height": 750,
         "framed": false,
-        "parallax": true
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
       }
     },
     "blog-posts": {
@@ -210,13 +334,21 @@
     },
     "map": {
       "type": "map",
-      "settings": {}
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "slideshow",
     "rich-text",
     "promo-grid",
+    "advanced_content_HQKMCe",
     "featured-collections",
     "promo-grid2",
     "featured-collection",
