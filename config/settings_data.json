@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -12,10 +21,10 @@
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
     "color_header_text": "#000000",
-    "color_announcement": "#0f0f0f",
+    "color_announcement": "#c5621c",
     "color_announcement_text": "#ffffff",
-    "color_footer": "#ffffff",
-    "color_footer_text": "#000000",
+    "color_footer": "#80481c",
+    "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
     "color_drawer_border": "#e8e8e1",
@@ -24,13 +33,13 @@
     "color_modal_overlays": "#e6e6e6",
     "color_image_overlay": "#000000",
     "color_image_overlay_text_shadow": 20,
-    "type_header_font_family": "tenor_sans_n4",
+    "type_header_font_family": "bevan_n4",
     "type_header_spacing": "0",
     "type_header_base_size": 36,
     "type_header_line_height": 1,
     "type_header_capitalize": true,
     "type_headers_align_text": true,
-    "type_base_font_family": "twentieth_century_n4",
+    "type_base_font_family": "poppins_n4",
     "type_base_spacing": "25",
     "type_base_size": 18,
     "type_base_line_height": 1.4,
@@ -145,7 +154,8 @@
           "parallax": true
         }
       }
-    }
+    },
+    "content_for_index": []
   },
   "presets": {
     "Modern": {
@@ -342,7 +352,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -375,7 +385,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -399,7 +409,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -410,7 +420,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -421,7 +431,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
