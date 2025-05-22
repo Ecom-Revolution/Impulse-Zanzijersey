@@ -36,13 +36,14 @@
             "top_subheading": "",
             "title": "opter pour \nl'élégance & l'excellence.",
             "title_size": 75,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "shopify://collections/all",
             "link_text": "Shop all",
             "link_2": "shopify://collections/all",
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/ChatGPT_Image_22_mai_2025_a_11_40_19.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
