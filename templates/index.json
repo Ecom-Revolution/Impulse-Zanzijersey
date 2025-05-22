@@ -25,6 +25,7 @@
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/ChatGPT_Image_22_mai_2025_a_11_06_59.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
