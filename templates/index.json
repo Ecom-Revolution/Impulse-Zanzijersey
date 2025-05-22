@@ -69,14 +69,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Rich text"
+            "title": "Emaraya : L'élégance ultime de l'Abaya"
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "<p>Emaraya incarne l'élégance et le luxe à travers des abayas raffinées. Alliant tradition et modernité, chaque pièce est un symbole de grâce et de confort. Emaraya, l'essence du style sophistiqué.</p>"
           }
         }
       },
@@ -96,14 +96,13 @@
         "promo-0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "OFFRE LIMITE",
+            "heading": "ANNONCE DE TA PROMOTION",
+            "textarea": "Incluez les petits détails de votre promotion dans le texte sous le titre.",
+            "cta_text1": "DÉCOUVRIR",
             "cta_link1": "shopify://collections/all",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/ChatGPT_Image_22_mai_2025_a_11_53_35.png",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -114,68 +113,36 @@
             "framed": true
           }
         },
-        "promo-1": {
+        "advanced_RLfDNi": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "OFFRE LIMITE",
+            "heading": "ANNONCE DE TA PROMOTION",
+            "textarea": "Incluez les petits détails de votre promotion dans le texte sous le titre.",
+            "cta_text1": "DÉCOUVRIR",
             "cta_link1": "shopify://collections/all",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/ChatGPT_Image_22_mai_2025_a_11_54_32.png",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 800,
             "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
+            "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
-            "boxed": true,
-            "framed": false
+            "boxed": false,
+            "framed": true
           }
         }
       },
       "block_order": [
         "promo-0",
-        "promo-1"
+        "advanced_RLfDNi"
       ],
       "settings": {
         "full_width": true,
         "gutter_size": 20,
         "space_above": false,
         "space_below": false,
-        "lazyload_images": true
-      }
-    },
-    "advanced_content_HQKMCe": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_3WcJU4": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "liquid_LaeyKP": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_3WcJU4",
-        "liquid_LaeyKP"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": true,
         "lazyload_images": true
       }
     },
@@ -222,7 +189,7 @@
         "featured-collections-3"
       ],
       "settings": {
-        "title": "Shop by category",
+        "title": "NOTRE CATALOGUE",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true
@@ -231,47 +198,47 @@
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
-        "promo2-0": {
+        "advanced_eWcm8c": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "OFFRE LIMITE",
+            "heading": "ANNONCE DE TA PROMOTION",
+            "textarea": "Incluez les petits détails de votre promotion dans le texte sous le titre.",
+            "cta_text1": "DÉCOUVRIR",
             "cta_link1": "shopify://collections/all",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
-            "width": "100",
-            "height": 720,
-            "text_size": 120,
+            "width": "50",
+            "height": 800,
+            "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "promo2-1": {
           "type": "sale_collection",
           "settings": {
             "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
+            "top_text": "JUSQU'À",
+            "middle_text": "50%",
+            "bottom_text": "selection des produits",
             "width": "50",
             "color_tint": "#000000",
             "color_tint_opacity": 0,
-            "boxed": false,
+            "boxed": true,
             "framed": true
           }
         },
-        "promo2-2": {
+        "sale_collection_cFqRFJ": {
           "type": "sale_collection",
           "settings": {
             "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
+            "top_text": "JUSQU'À",
+            "middle_text": "50%",
+            "bottom_text": "selection des produits",
             "width": "50",
             "color_tint": "#000000",
             "color_tint_opacity": 0,
@@ -281,9 +248,9 @@
         }
       },
       "block_order": [
-        "promo2-0",
+        "advanced_eWcm8c",
         "promo2-1",
-        "promo2-2"
+        "sale_collection_cFqRFJ"
       ],
       "settings": {
         "full_width": false,
@@ -296,7 +263,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "futur collection",
         "home_featured_products": "",
         "per_row": 4,
         "rows": 1,
@@ -305,26 +272,10 @@
         "divider": false
       }
     },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
-        "button_label": "",
-        "button_link": "shopify://collections/all",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
-        "title": "From the journal",
+        "title": "blog",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
@@ -339,8 +290,8 @@
     "map": {
       "type": "map",
       "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
+        "map_title": "géolocalisation",
+        "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
         "map_address": "301 Front St W, Toronto, ON M5V 2T6",
         "api_key": "",
         "show_button": true,
@@ -352,11 +303,9 @@
     "slideshow",
     "rich-text",
     "promo-grid",
-    "advanced_content_HQKMCe",
     "featured-collections",
     "promo-grid2",
     "featured-collection",
-    "background-image-text",
     "blog-posts",
     "map"
   ]

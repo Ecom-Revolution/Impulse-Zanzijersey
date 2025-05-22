@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
@@ -8,41 +17,54 @@
         "footer-promotions-0": {
           "type": "promotion",
           "settings": {
-            "enable_image": true
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Promotion à l’échelle du site",
+            "text": "<p>Utilisez cette section pour promouvoir le contenu sur toutes les pages de votre site. Ajoutez des images pour un plus grand impact.</p>",
+            "button_label": "buton optionnel",
+            "button_link": ""
           }
         },
-        "footer-promotions-1": {
+        "promotion_WXnPrn": {
           "type": "promotion",
           "settings": {
-            "enable_image": true
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Promotion à l’échelle du site",
+            "text": "<p>Utilisez cette section pour promouvoir le contenu sur toutes les pages de votre site. Ajoutez des images pour un plus grand impact.</p>",
+            "button_label": "buton optionnel",
+            "button_link": ""
           }
         },
-        "footer-promotions-2": {
+        "promotion_Ex7HYt": {
           "type": "promotion",
           "settings": {
-            "enable_image": true
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Promotion à l’échelle du site",
+            "text": "<p>Utilisez cette section pour promouvoir le contenu sur toutes les pages de votre site. Ajoutez des images pour un plus grand impact.</p>",
+            "button_label": "buton optionnel",
+            "button_link": ""
           }
         }
       },
       "block_order": [
         "footer-promotions-0",
-        "footer-promotions-1",
-        "footer-promotions-2"
+        "promotion_WXnPrn",
+        "promotion_Ex7HYt"
       ],
-      "settings": {}
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "wide"
+      }
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "1494301487048": {
-          "type": "logo_social",
-          "settings": {
-            "container_width": 95
-          }
-        },
         "1494301487049": {
           "type": "menu",
           "settings": {
+            "show_footer_title": false,
             "menu": "footer",
             "container_width": 25
           }
@@ -50,7 +72,17 @@
         "1494292487693": {
           "type": "newsletter",
           "settings": {
+            "show_footer_title": true,
+            "title": "Sign up and save",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
             "container_width": 33
+          }
+        },
+        "1494301487048": {
+          "type": "logo_social",
+          "settings": {
+            "desktop_logo_height": 50,
+            "container_width": 95
           }
         }
       },
@@ -60,7 +92,12 @@
         "1494301487048"
       ],
       "settings": {
-        "show_payment_icons": false
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_payment_icons": false,
+        "show_copyright": false,
+        "copyright_text": ""
       }
     }
   },
